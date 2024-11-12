@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    max-width: 1200px;
+    /* background-color: lightgrey; */
+    margin: 10px;
+}
+img{
+    width: 100%;
+display: block;
+height: 100%;
+object-fit: cover;
+}
+div{
+border-radius: 15px;
+border: dotted purple 2px;
+}
+.topmenu{
+    display: flex;
+}
+.mainlogo
+
+ul{
+    display: flex;
+
+}
+.bigpic{
+    background-image: url("img/happiest-dog.webp");
+    /* background-color: red; */
+}
