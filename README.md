@@ -11,7 +11,7 @@ Uppgiften bygger på att **återskapa layouten till sajten Pet Resort**. Det är
 - Texterna du behöver finns i /assets/texts.txt
 
 ## Det finns flera sätt att hantera höjder men effekten ska bli:
-- Boxen med huvudbilen är 600xp hög. 
+- Boxen med huvudbilen är 600px hög. 
 - Delen med erbjudanden, ex October Grooming, är 300px hög
 - Den understa delen är så hög den behöver vara. Detta är den svåraste delen i layouten. 
 

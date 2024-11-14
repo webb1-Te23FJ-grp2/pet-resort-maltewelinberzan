@@ -1,33 +1,92 @@
-body{
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  max-width: 1200px;
+  background-color: #eee;
+  margin: 0px;
+  grid-template-areas:
+    "topmenu topmenu topmenu topmenu"
+    "bigpic bigpic bigpic bigpic"
+    "oct oct oct partners"
+    "merch  buddies fine    partners";
+}
+img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+div {
+  border-radius: 15px;
+  border: dotted purple 2px;
+  margin: 10px;
+}
+nav {
+  border-radius: 15px;
+  border: dotted purple 2px;
+  margin: 10px;
+}
+.topmenu {
+  display: flex;
+  grid-area: topmenu;
+}
+
+ul {
+  display: flex;
+  /* align-items: center; */
+}
+.bigpic {
+  background-image: url("../img/happiest-dog.webp");
+  /* background-color: red; */
+  grid-area: bigpic;
+  height:600px ;
+  color: white;
+}
+
+.october {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-area: oct;
+  height: 300px;
+  background-color: white;
+  
+}
+
+.partners {
+  grid-area: partners;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+.partnersimg{
+    display: flex;
+    flex-direction: column;
+    width: 130px;
     margin: 0;
-    box-sizing: border-box;
+}
 
+.partnerstxt{
+    padding: 5px;
 }
-.container{
-    max-width: 1200px;
-    /* background-color: lightgrey; */
-    margin: 10px;
-}
-img{
-    width: 100%;
-display: block;
-height: 100%;
-object-fit: cover;
-}
-div{
-border-radius: 15px;
-border: dotted purple 2px;
-}
-.topmenu{
-    display: flex;
-}
-.mainlogo
 
-ul{
-    display: flex;
-
+.merch {
+  grid-area: merch;
+  background-color: white;
 }
-.bigpic{
-    background-image: url("img/happiest-dog.webp");
-    /* background-color: red; */
+
+.buddies {
+  grid-area: buddies;
+  background-color: white;
+}
+
+.fine {
+  grid-area: fine;
+  background-color: white;
 }
