@@ -1,6 +1,8 @@
 body {
   margin: 0;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
 }
 
 .poppins-regular {
@@ -45,10 +47,17 @@ div {
   
 }
 
+
 .menu a:hover{
   color: grey;
   font-size: 150%;
   
+}
+
+a:hover{
+  color: darkblue;
+  font-size: 125%;
+
 }
 nav {
   border-radius: 15px;
