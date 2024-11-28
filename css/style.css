@@ -31,7 +31,7 @@ img {
 }
 div {
   border-radius: 15px;
-  border: dotted purple 2px;
+  /* border: dotted purple 2px; */
   margin: 10px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -61,7 +61,7 @@ a:hover{
 }
 nav {
   border-radius: 15px;
-  border: dotted purple 2px;
+  /* border: dotted purple 2px; */
   margin: 10px;
 }
 .topmenu {
